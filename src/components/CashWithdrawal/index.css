@@ -1,0 +1,89 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.bg-container {
+  height: 100vh;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.cash-container {
+  background-color: #150b3e;
+  border-radius: 10px;
+  width: 70vw;
+  max-width: 550px;
+  height: auto;
+  padding: 30px;
+  height: 60vh;
+}
+.logo {
+  display: flex;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  background-color: #c7d2fe;
+  padding: 10px;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.logo-name-container {
+  display: flex;
+}
+.name {
+  font-family: 'Roboto';
+  font-size: 23px;
+  color: #c7d2fe;
+  margin-left: 20px;
+}
+.your-balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+.balance-container {
+  display: flex;
+  flex-direction: column;
+}
+.amount {
+  color: #c7d2fe;
+  font-size: 30px;
+}
+.rupees {
+  color: #382f5a;
+  font-size: 17px;
+  font-weight: bold;
+}
+.your-balance {
+  color: #382f5a;
+  font-size: 20px;
+  font-weight: 500;
+}
+.ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+}
+.withdrawal {
+  color: #d4d2db;
+  font-size: 20px;
+  font-weight: 500;
+}
+.choose-amount {
+  color: #382f5a;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+  .cash-container {
+    width: 100vw;
+  }
+  .bg-container {
+    padding: 5px;
+  }
+}

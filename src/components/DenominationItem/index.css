@@ -1,0 +1,21 @@
+.button {
+  width: 200px;
+  height: 50px;
+  font-size: 27px;
+  background-color: #382f5a;
+  border: 1px solid #d4d2db;
+  border-radius: 5px;
+  color: #d4d2db;
+}
+.li-el {
+  list-style: none;
+  margin: 10px;
+  padding: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .button {
+    width: 25vw;
+    max-width: 200px;
+  }
+}
